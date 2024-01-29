@@ -1,0 +1,64 @@
+.category-products.cgv-movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-grid {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.products-grid--max-4-col {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.film-lists {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  /* overflow-y: scroll; */
+
+}
+
+.film-lists .product-images {
+  width: 100%;
+  max-width: -webkit-fill-available;
+  border-radius: 5px;
+}
+
+.film-lists .product-images img {
+  width: 80%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.film-lists .product-info {
+  padding: 10px;
+  font-size: large;
+}
+
+.film-lists .product-info .product-name {
+  margin-bottom: 10px;
+}
+
+.film-lists .product-info .cgv-movie-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.film-lists .product-info .cgv-movie-info .cgv-info-bold {
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.film-lists .product-info .cgv-movie-info .cgv-info-normal {
+  margin-left: 5px;
+}

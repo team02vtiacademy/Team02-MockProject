@@ -1,0 +1,42 @@
+.schedule-page {
+
+    &-container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        width: 100%;
+    }
+
+    &-list {
+        padding-inline-start: 0;
+        
+
+        list-style-type: none;
+        overflow: hidden;
+
+        border-bottom: 1px solid;
+        border-color: #002843;
+        border-radius: 0;
+        width: fit-content;
+        
+        &-item {
+            float: left;
+            min-width: 100px;
+
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            
+        }
+        
+    }
+    
+}
+
+.active-schedule {
+    color: rgb(0, 132, 220);
+    border-bottom: 2px solid;
+    border-color: rgb(0, 132, 220);
+}

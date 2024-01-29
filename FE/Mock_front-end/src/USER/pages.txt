@@ -1,0 +1,7 @@
+trang chu: "/" - hien thi tat ca phim
+trang lich chieu: "/schedule" - hien thi phim theo lich
+trang xem ve: "/ticket" - hien thi ve dat
+trang thong tin film: "/film/:id" - hien thi chi tiet film
+trang gia ve: "ticket-price" :
+dang nhap : "/sign-in"
+dang ky: "sign-up"

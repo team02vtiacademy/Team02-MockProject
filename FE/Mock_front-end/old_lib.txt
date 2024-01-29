@@ -1,0 +1,15 @@
+npm i react-bootstrap-table-next
+react-bootstrap-table2-paginator
+react-bootstrap-table2-toolkit
+npm i react-bootstrap-table2-filter
+--legacy-peer-deps
+npm i @fortawesome/fontawesome-svg-core
+
+npm i @cristhiansalta/react-bootstrap-table-next
+npm i react-bootstrap-table-nextgen-toolkit
+npm i react-bootstrap-table-nextgen
+npm i react-bootstrap-table-nextgen-paginator
+npm i react-bootstrap-table-nextgen-filter
+
+npm uninstall npm i react-bootstrap-table2-filter --legacy-peer-deps
+npm uninstall react-bootstrap-table-next --legacy-peer-deps

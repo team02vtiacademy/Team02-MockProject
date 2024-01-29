@@ -1,0 +1,10 @@
+.ft{
+    display: flex;
+    height: 50px;
+    background-color: #cac7c7;
+    color: #fdfdfd;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
